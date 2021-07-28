@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pump It Up Centre</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="project\style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/man-1282232_1920.jpg');
+        color: white;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(243, 2, 22); */
+        /* background-color: white; */
+        color: rgb(243, 8, 8);
+
+    }
+
+    .left img {
+        width: 150px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px;
+        line-height: opx;
+    }
+
+    .centre {
+         position: relative; 
+        left: 34px;
+        display: block;
+        width: 33%;
+        margin: 46px auto;
+        /* border: 3px solid purple; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellowgreen; */
+    }
+
+    .navbar {
+        /* text-decoration: none; */
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: yellowgreen;
+        font-family: 'Staatliches', cursive;
+        text-decoration: none;
+        padding: 20px 20px;
+        font-size: 18px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(240, 20, 192);
+    }
+
+    .btn {
+        margin: 6px 15px;
+        background-color: rgb(192, 241, 12);
+        color: red;
+        font-family: fantasy;
+        padding: 3px 4px;
+        border: 2px solid rgb(235, 13, 61);
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: skyblue;
+    }
+
+    .container {
+        /* border: 2px solid green; */
+        border-radius: 22px;
+        margin: 150px 60px;
+        padding: 75px;
+        width: 33%;
+        font-family: 'Bangers', cursive;
+        text-align: center;
+        color: chartreuse;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 66%;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 20px auto;
+        border-radius: 6px;
+        font-size: 16px;
+        font-family: cursive;
+
+    }
+    .container button{
+        display: block;
+        width: 95%;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/silhouette-1975689_1280.png" alt="">
+            <div>PUMP IT UP!!!</div>
+        </div>
+        <div class="centre">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">BMI calculator</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Now For Registration</button>
+            <button class="btn">Mail Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Come Train With Us!!!</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Contact No.">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Address">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Gender">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
